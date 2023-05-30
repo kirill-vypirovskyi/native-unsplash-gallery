@@ -9,11 +9,10 @@ import { Gallery } from "../components/Gallery/Gallery";
 export const MainScreen = () => {
   const { photos, hasError, loaded } = useAppSelector((state) => state.photos);
 
-  const dispatch = useAppDispatch();
-  useInitialLoad();
+  const loadPhotos = useInitialLoad();
 
   const tryAgain = () => {
-    dispatch(loadInitialPhotos());
+    loadPhotos();
   };
 
   return (

@@ -5,7 +5,13 @@ import { loadInitialPhotos } from "../app/slice";
 export const useInitialLoad = () => {
   const dispatch = useAppDispatch();
 
-  useEffect(() => {
+  const loadPhotos = () => {
     dispatch(loadInitialPhotos());
+  }
+
+  useEffect(() => {
+    loadPhotos();
   }, []);
+
+  return loadPhotos;
 };

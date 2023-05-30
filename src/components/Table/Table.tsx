@@ -12,7 +12,6 @@ export const Table = ({ exif }: Props) => {
   return (
     <View>
       <Text style={styles.tableTitle}>Captured on:</Text>
-
       <TableRow title="Model" value={exif.model}/>
       <TableRow title="Focal length" value={exif.focal_length}/>
       <TableRow title="Aperture" value={exif.aperture}/>

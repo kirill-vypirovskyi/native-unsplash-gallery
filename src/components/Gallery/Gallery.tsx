@@ -1,8 +1,7 @@
-import React, { useCallback, useEffect, useState } from "react";
+import React, { useEffect, useState } from "react";
 import { Photo } from "../../types/Photo";
 import { FlatList } from "react-native";
 import { GalleryItem } from "./GalleryItem";
-import { useScreenValues } from "../../hooks/useScreenValues";
 import { styles } from "./GalleryStyles";
 import { useAppDispatch, useAppSelector } from "../../app/hooks";
 import { loadMorePhotos } from "../../app/slice";
