@@ -11,6 +11,8 @@ npm-debug.*
 web-build/
 .vscode
 .env
+app.config.js
+eas.json
 
 
 # macOS
