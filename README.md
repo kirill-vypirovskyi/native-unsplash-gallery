@@ -2,7 +2,7 @@
 
 This is a React Native app called React Native Gallery that allows you to browse a collection of photos with infinite scrolling. It provides the option to switch between two view modes: grid and list. You can also view additional information about each photo.
 
-![image](https://github.com/kirill-vypirovskyi/react-native-unsplash-gallery/assets/121887457/1ed76ffe-c4f2-49fd-93ae-2d6ae33ab13d)
+![ezgif com-optimize (3)](https://github.com/kirill-vypirovskyi/react-native-unsplash-gallery/assets/121887457/ac62f0f2-6870-4ec5-9788-a3c26b8a01a8)
 
 ## Features
 
